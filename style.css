@@ -44,6 +44,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .central {
@@ -52,19 +53,20 @@ article {
     display: block;
     max-width: 300px;
     min-width: 100px;
-    margin: 50px 50px;
+    margin: 30px;
 }
 
 .central img {
     width: 100%;
     height: auto;
+    display: flex;
 
 }
 
 .busqueda {
-    width: 100%;
+    width: 90%;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.108);
     border-radius: 24px;
     display: flex;
     justify-content: center;
