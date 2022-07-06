@@ -6,19 +6,20 @@
 
 body {
     background-color: white;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
 
 header {
     width: 100%;
     height: auto;
-    padding: 15px ;
-    
+    padding: 10px 10px;
+
 }
+
 ul {
     display: flex;
-    justify-content: right;  
-    align-items: center; 
+    justify-content: right;
+    align-items: center;
     list-style: none;
 }
 
@@ -38,9 +39,9 @@ li a:hover {
 ul img {
     width: 32px;
     height: 32px;
-    display: flex; 
-    border-radius: 50%; 
-    object-fit: cover;  
+    display: flex;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 article {
@@ -53,24 +54,22 @@ article {
 }
 
 .central {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
-    max-width: 300px;
-    min-width: 100px;
     margin: 30px;
+    max-width: 400px;
+    min-width: 50px;
 }
 
 .central img {
     width: 100%;
-    height: auto;
-    display: flex;
 }
 
 .busqueda {
     width: 90%;
     height: auto;
-    max-width: 600px;
+    max-width: 700px;
     border: 1px solid rgba(0, 0, 0, 0.108);
     border-radius: 24px;
     display: flex;
@@ -85,6 +84,12 @@ article {
     margin: 5px;
 }
 
+.lupa img {
+    width: 15px;
+    opacity: 0.5;
+    display: flex;
+}
+
 .ingtext {
     width: 100%;
     margin: 0px;
@@ -96,6 +101,7 @@ article {
     border: none;
     font-size: large;
 }
+
 .ingtext input:focus {
     border: none;
 }
@@ -107,4 +113,13 @@ a {
 a img {
     margin-right: 10px;
     min-width: 25px;
+}
+
+.button {
+    margin: 20px;
+}
+
+.button .search {
+    margin: 10px;
+    padding: 10px 5px;
 }
