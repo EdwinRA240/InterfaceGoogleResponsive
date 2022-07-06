@@ -58,7 +58,7 @@ article {
     height: auto;
     display: block;
     margin: 30px;
-    max-width: 400px;
+    max-width: 300px;
     min-width: 50px;
 }
 
@@ -80,14 +80,15 @@ article {
 }
 
 .busqueda img {
-    max-width: 20px;
-    margin: 5px;
+    max-width: 33px;
+    margin: 5px 15px;
 }
 
 .lupa img {
-    width: 15px;
-    opacity: 0.5;
+    width: 20px;
+    opacity: 0.4;
     display: flex;
+
 }
 
 .ingtext {
@@ -97,7 +98,7 @@ article {
 
 .ingtext input {
     width: 100%;
-    height: 30px;
+    height: 35px;
     border: none;
     font-size: large;
 }
@@ -120,6 +121,13 @@ a img {
 }
 
 .button .search {
-    margin: 10px;
-    padding: 10px 5px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px white solid;
+    background-color: #f8f9fa;
+    font-size: medium;
+}
+
+.button button:hover {
+    border: 1px rgba(0, 0, 0, 0.203) solid;
 }
