@@ -5,6 +5,8 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: white;
     font-family: arial, sans-serif;
 }
@@ -12,7 +14,7 @@ body {
 header {
     width: 100%;
     height: auto;
-    padding: 10px 10px;
+    padding: 10px 10px 0px 10px;
 
 }
 
@@ -46,7 +48,7 @@ ul img {
 
 article {
     width: 100%;
-    padding: 5px;
+    padding: 0px 0px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +82,8 @@ article {
 }
 
 .busqueda img {
-    max-width: 33px;
+    width: 28px;
+    max-width: 32px;
     margin: 5px 15px;
 }
 
@@ -117,7 +120,8 @@ a img {
 }
 
 .button {
-    margin: 20px;
+    margin: 18px;
+    display: flex;
 }
 
 .button .search {
@@ -125,9 +129,66 @@ a img {
     padding: 10px;
     border: 1px white solid;
     background-color: #f8f9fa;
-    font-size: medium;
+    font-size: 14px;
 }
 
 .button button:hover {
     border: 1px rgba(0, 0, 0, 0.203) solid;
+}
+
+.idioma {
+    display: flex;
+    font-size: 13px;
+}
+
+.idioma a {
+    padding-left: 3px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #70757a;
+    background-color: #70757a1c;
+}
+
+footer a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.pais {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #dadce0;
+    margin: 5px 0px;
+    padding: 15px 15px;
+}
+
+footer .foot {
+    display: flex;
+    
+}
+
+.mas {
+    display: flex;
+}
+
+.mas a {
+    padding: 20px; 
+}
+
+.masmas {
+    display: flex;
+}
+
+.masmas a {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
